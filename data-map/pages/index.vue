@@ -59,6 +59,30 @@
  </no-ssr>
 </div>
     </v-flex>
+    <v-flex>
+          <p>Click on the flight paths to update the text values for each path</p>
+
+      <p>
+      Hover over the nodes to see from-destination flight path Air Space class
+      </p>
+      <h1>Colour</h1>
+      <p>
+        Air space class A = Red 
+      </p>
+            <p>
+        Air space class B = Yellow 
+      </p>
+            <p>
+        Air space class C = Green 
+      </p>
+            <p>
+        Air space class D = Blue 
+      </p>
+            <p>
+        Air space class D = Black 
+      </p>
+      </v-flex>
+      <v-flex> </v-flex>
   </v-layout>
 </template>
 
