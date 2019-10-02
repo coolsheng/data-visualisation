@@ -10,16 +10,16 @@
  <no-ssr>
    <l-map :zoom=5 :center="[-29, 133.7751]">
      <l-tile-layer url="http://{s}.tile.osm.org/{z}/{x}/{y}.png"></l-tile-layer>
-     <l-circle-marker @mouseover="sydney()" @mouseleave="sydneyLeave()" :radius="3" :color="markerColour" :lat-lng="markers.sydney"></l-circle-marker>
+     <l-circle-marker @mouseover="sydney()" @mouseleave="sydneyLeave()" :radius="7" :color="markerColour" :lat-lng="markers.sydney"></l-circle-marker>
      <l-circle-marker  :radius="5" :color="markerColour" :lat-lng="markers.canberra"></l-circle-marker>
      <l-circle-marker  :radius="5" :color="markerColour" :lat-lng="markers.newcastle"></l-circle-marker>
      <l-circle-marker  :radius="5" :color="markerColour" :lat-lng="markers.brokenHill"></l-circle-marker>
-     <l-circle-marker @mouseover="melbourne()" @mouseleave="melbourneLeave()" :radius="5" :color="markerColour" :lat-lng="markers.melbourne"></l-circle-marker>
-     <l-circle-marker  :radius="5" :color="markerColour" :lat-lng="markers.bendigo"></l-circle-marker>
-     <l-circle-marker @mouseover="adelaide()" @mouseleave="adelaideLeave()" :radius="5" :color="markerColour" :lat-lng="markers.adelaide"></l-circle-marker>
+     <l-circle-marker @mouseover="melbourne()" @mouseleave="melbourneLeave()" :radius="10" :color="markerColour" :lat-lng="markers.melbourne"></l-circle-marker>
+     <l-circle-marker  :radius="3" :color="markerColour" :lat-lng="markers.bendigo"></l-circle-marker>
+     <l-circle-marker @mouseover="adelaide()" @mouseleave="adelaideLeave()" :radius="10" :color="markerColour" :lat-lng="markers.adelaide"></l-circle-marker>
      <l-circle-marker  :radius="5" :color="markerColour" :lat-lng="markers.aliceSprings"></l-circle-marker>
      <l-circle-marker  :radius="5" :color="markerColour" :lat-lng="markers.darwin"></l-circle-marker>
-     <l-circle-marker @mouseover="perth()" @mouseleave="perthLeave()" :radius="5" :color="markerColour" :lat-lng="markers.perth"></l-circle-marker>
+     <l-circle-marker @mouseover="perth()" @mouseleave="perthLeave()" :radius="7" :color="markerColour" :lat-lng="markers.perth"></l-circle-marker>
      <l-circle-marker @mouseover="albany()" @mouseleave="albanyLeave()" :radius="5" :color="markerColour" :lat-lng="markers.albany"></l-circle-marker>
      <l-circle-marker  :radius="5" :color="markerColour" :lat-lng="markers.kalgoorlie"></l-circle-marker>
      <l-circle-marker @mouseover="broome()" @mouseleave="broomeLeave()" :radius="5" :color="markerColour" :lat-lng="markers.broome"></l-circle-marker>
