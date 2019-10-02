@@ -26,7 +26,8 @@
       :fixed="fixed"
       app
     >
-      <span> 2019</span>
+            <p style="align:right">Xiangsheng Zeng 12541215</p>
+
     </v-footer>
   </v-app>
 </template>
